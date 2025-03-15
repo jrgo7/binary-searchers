@@ -1,0 +1,48 @@
+* {
+    font-family: sans-serif;
+}
+
+main {
+    width: 80ch;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+.wrong {
+    color: red;
+    animation: shake 0.2s ease-in-out 0s 2;
+}
+
+.correct {
+    color: green;
+    animation: shake 0.2s ease-in-out 0s 2;
+}
+
+#solved-everything {
+    font-size: x-large;
+}
+
+@keyframes shake {
+    0% {
+        margin-left: 0rem;
+    }
+
+    25% {
+        margin-left: 0.5rem;
+    }
+
+    75% {
+        margin-left: -0.5rem;
+    }
+
+    100% {
+        margin-left: 0rem;
+    }
+}

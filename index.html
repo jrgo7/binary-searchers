@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="style.css">
+    <script src="names.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Binary Search: The Game</title>
+</head>
+
+<body>
+    <main>
+        <h1>Binary Search: The Game</h1>
+        <hr>
+        <ol>
+            <li>I'm thinking of a number from 0 to 99. What do you think it is?</li>
+            <input id='q1-input' type='number'>
+            <button id='q1-check' onclick='checkQ1()'>Check</button>
+            <p id='q1-result'>Check your answer using the button!</p>
+
+            <li>I have a list of ordered names stored in a zero-indexed array with 100 names. I need help finding
+                Jericho's index, though. Give me an index, and I'll tell you who's there!</li>
+            <input id='q2-input' type='number'>
+            <button id='q2-check' onclick='checkQ2()'>Check</button>
+            <p id='q2-result'>Check the name located in the specified index through the button!</p>
+        </ol>
+        <hr>
+        <p id='solved-everything' class='correct'></p>
+    </main>
+</body>
+
+</html>
