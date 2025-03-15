@@ -7,8 +7,22 @@ main {
     margin: auto;
 }
 
-h1 {
+@media only screen and (max-width: 80ch) {
+    main {
+        width: 40ch;
+    }
+}
+
+h1, .subtitle {
     text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-size: x-large;
 }
 
 label {
